@@ -1,8 +1,8 @@
 name: unityads
 description: A new flutter plugin project.
-version: 0.0.1
-author:
-homepage:
+version: 0.0.5
+author: Weststreet <sxyberry@gmail.com>
+homepage: https://github.com/Weststreet
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
