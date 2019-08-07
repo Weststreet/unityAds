@@ -1,11 +1,17 @@
 PODS:
   - Flutter (1.0.0)
-  - unityads (0.0.1):
+  - unityads (0.0.8):
     - Flutter
+    - UnityAds
+  - UnityAds (3.2.0)
 
 DEPENDENCIES:
   - Flutter (from `.symlinks/flutter/ios`)
   - unityads (from `.symlinks/plugins/unityads/ios`)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - UnityAds
 
 EXTERNAL SOURCES:
   Flutter:
@@ -15,7 +21,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
-  unityads: 6f4afc1c93e7519d8de655db6c6a475491d52717
+  UnityAds: 2bc7ff1fd9d659745f0920df6084ba5bf9548bc8
+  unityads: abf27f47fdfa0c213b74763af059a84968c949c3
 
 PODFILE CHECKSUM: cd90156a26c6486afb7380ad78dd7d71cac83fc2
 

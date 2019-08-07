@@ -29,7 +29,9 @@ UIViewController *mViewController;
     }else if ([@"showVideo" isEqualToString:call.method]) {
         [youbanUnityAds showVideo:mViewController ];
     } else if ([@"isReady" isEqualToString:call.method]) {
-        [youbanUnityAds isReady ];
+        bool isReady=[youbanUnityAds isReady ];
+        result(@(isReady));
+   
     } else {
         result(FlutterMethodNotImplemented);
     }

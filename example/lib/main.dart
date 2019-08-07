@@ -37,6 +37,9 @@ class _MyAppState extends State<MyApp> {
               Unityads.initialize('3241911','3241911', false);
             },child: Text('初始化'),),
             FlatButton(onPressed: (){
+              isReady();
+            },child: Text('isReady'),),
+            FlatButton(onPressed: (){
               Unityads.showVideo();
             },child: Text('显示视频'),),
 
@@ -45,5 +48,10 @@ class _MyAppState extends State<MyApp> {
         ),
       ),
     );
+  }
+
+  isReady() async{
+    bool isReady= await Unityads.isReady();
+    print("isReady=$isReady");
   }
 }

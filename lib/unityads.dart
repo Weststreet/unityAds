@@ -40,4 +40,8 @@ class Unityads {
     await _channel.invokeMethod('showVideo');
     return '';
   }
+
+  static Future<bool>isReady() async{
+    return  await _channel.invokeMethod('isReady');
+  }
 }

@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'unityads'
-  s.version          = '0.0.5'
+  s.version          = '0.0.8'
   s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
 A new flutter plugin project.
@@ -16,8 +16,10 @@ A new flutter plugin project.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
 
-  s.vendored_frameworks = 'UnityAds.framework'
+  s.dependency 'UnityAds'
   s.ios.deployment_target = '8.0'
+  s.static_framework = true
+  s.requires_arc = true
 
 end
 
